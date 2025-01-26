@@ -30,7 +30,7 @@ async function fetchGitHubRepos() {
             <p>${repo.description || 'No description available.'}</p>
             <a href="${repo.html_url}" target="_blank">View on GitHub</a>
         `;
-        //repoContainer.appendChild(repoDiv);
+        // repoContainer.appendChild(repoDiv);
     });
 }
 
